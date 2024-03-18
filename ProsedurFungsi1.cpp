@@ -17,7 +17,6 @@ void main(){
     cout << "Jumlah Avanza :";
     cin >> nAvanza;
 
-
     cout << "Jumlah Brio :";
     cin >> nBrio;
 
@@ -35,6 +34,11 @@ void display(){
 }
 
 int main(){
+    char pilihan
+    do{
      input();
      display();
+     cout << "Apakah ingin kembali ?";
+     cin >> pilihan;
+    }while(pilihan == 'y' ||pilihan == 'Y');
 }
